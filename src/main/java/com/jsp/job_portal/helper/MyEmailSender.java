@@ -25,7 +25,7 @@ public class MyEmailSender {
 		MimeMessage message = mailSender.createMimeMessage();
 		MimeMessageHelper helper = new MimeMessageHelper(message);
 		try {
-			helper.setFrom("saishkulkarni7@gmail.com", "Job-Portal Application");
+			helper.setFrom("bhagyapatil970@gmail.com", "Job-Portal Application");
 			helper.setTo(jobSeeker.getEmail());
 			helper.setSubject("Otp for Creating Account with Us");
 
@@ -45,7 +45,7 @@ public class MyEmailSender {
 		MimeMessage message = mailSender.createMimeMessage();
 		MimeMessageHelper helper = new MimeMessageHelper(message);
 		try {
-			helper.setFrom("saishkulkarni7@gmail.com", "Job-Portal Application");
+			helper.setFrom("bhagyapatil970@gmail.com", "Job-Portal Application");
 			helper.setTo(recruiter.getEmail());
 			helper.setSubject("Otp for Creating Account with Us");
 
